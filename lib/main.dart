@@ -27,14 +27,14 @@ class MyHomePage extends StatelessWidget {
           style: TextStyle(
             color: Colors.white,
             fontSize: 24.0,
-            fontFamily: 'Prata',
+            fontFamily: 'Prata',//using Prata font
           ),
         ),
         backgroundColor: Colors.deepOrange,
       ),
       body: Column(
         children: [
-          // Change image names, info and price to match your own
+          //presents three different type of spaghetti menu
           buildFoodCard(
             context,
             'Spaghetti Aglio e Olio',
@@ -95,6 +95,7 @@ class MyHomePage extends StatelessWidget {
                   fontSize: 18.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                  //using prata font
                   fontFamily: 'Prata',
                 ),
               ),
